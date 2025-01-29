@@ -6,10 +6,6 @@ This is a API developed for the HNG12 project. It returns the following informat
 - The current datetime as an ISO 8601 formatted timestamp.
 - The GitHub URL of the project's codebase.
 
-## Deployed Link
-
-- You can access the live API [DevInfo](https://dev-info-api-m1zd.onrender.com).
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -39,8 +35,9 @@ npm run dev
 
 ### API Endpoint
 
-- URL: /api/info
-- Method: GET
+- Method:`GET`
+- Base(local): `http://localhost:3000/`
+- Endpoint : `api/info`
 - Success Response:
 
   - Code: 200 OK
@@ -54,11 +51,18 @@ npm run dev
 
   } ```
 
-- Example usage
+### Example usage
+
+#### local
 
 ```
  http://localhost:3000/api/info
 ```
+
+#### online
+
+- Base: `https://dev-info-api-m1zd.onrender.com`
+- Endpoint : `api/info`
 
 ### BackLInks
 
