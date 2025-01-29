@@ -38,13 +38,14 @@ npm run dev
 - URL: /api/info
 - Method: GET
 - Success Response:
-  Code: 200 OK
 
-         Content:
-         ```
-         {
-      "email": "gakiiviolet1@gmail.com",
-      "current_datetime": "2025-01-29T06:03:27.190Z",
-      "github_url": "https://github.com/G-Gakii/dev-info-api"
+  - Code: 200 OK
+  - Content:
+    ```
+    {
+    "email": "gakiiviolet1@gmail.com",
+    "current_datetime": "2025-01-29T06:03:27.190Z",
+    "github_url": "https://github.com/G-Gakii/dev-info-api"
+    ```
 
   } ```
